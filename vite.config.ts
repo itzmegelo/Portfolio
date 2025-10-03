@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
-  base: '/variance-high.vercel.app/',
+  base: '/',
   plugins: [vue(),tailwindcss(),vueDevTools()],
 })
