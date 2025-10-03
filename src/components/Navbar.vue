@@ -7,7 +7,7 @@ const modalOpen = ref(false);
 const openModal = () => {
   modalOpen.value = true;
 };
-import { Book, Power , File, User, Info } from 'lucide-vue-next'
+import { Book, Power , User, Info } from 'lucide-vue-next'
 const open = ref(false)
 const dropdownButtonRef = ref<HTMLButtonElement | null>(null)
 
