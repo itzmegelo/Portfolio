@@ -16,10 +16,9 @@ const toggleNavbar = () => {
 }
 
 const navLinkItems = ref([
-  { text: 'Dashboard', href: '/dashboard' },
-  { text: 'Users', href: '/manageuser' },
-  { text: 'Business Unit', href: '/about' },
-  { text: 'Reports', href: '/blog' }
+  { text: 'Home', href: '/' },
+  { text: 'Browse', href: '/manageuser' },
+  { text: 'About Us', href: '/about' }
 ])
 
 // Close menu when clicking outside
@@ -43,10 +42,10 @@ onUnmounted(() => {
     <div class="container">
       <div class="relative -mx-4 flex items-center justify-between">
         <!-- Logo -->
-        <div class="w-60 max-w-full px-4">
-          <a href="/" class="w-full flex items-center justify-center text-center py-5">
+        <div class="w-60 max-w-full px-4 gap-2 ms-4">
+          <a href="/" class="w-full flex items-center justify-center text-center py-5 gap-2">
              <img src="/logo3.png" class="w-10 h-10" alt="Logo" />
-             <h2 class="font-bold text-2xl font-sans text-primary">Variance</h2>
+             <h2 class="font-bold text-2xl font-sans text-primary dark:text-gray-2">Variance</h2>
           </a>
         </div>
 
@@ -84,29 +83,11 @@ onUnmounted(() => {
 
           <!-- Auth Buttons -->
           <div class="hidden justify-end gap-2 pr-16 sm:flex lg:pr-0">
-             <a
-              href="/"
-              class="px-2 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
-            >
-              <Book  class="h-5 w-5" />
-            </a>
-             <a
-              href="/"
-              class="px-2 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
-            >
-              <Info  class="h-5 w-5" />
-            </a>
-            <a
-              href="/"
-              class="px-2 py-3 text-base font-medium text-dark hover:text-primary dark:text-white"
-            >
-              <User  class="h-5 w-5" />
-            </a>
             <a
               @click="openModal"
               class="rounded-md flex gap-2 bg-primary px-7 py-3 text-base font-medium text-white hover:bg-primary/90"
             >
-             <Power  class="h-5 w-5" /> Log Out
+            Donate
             </a>
           </div>
         </div>
