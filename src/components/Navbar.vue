@@ -45,7 +45,7 @@ onUnmounted(() => {
         <div class="w-60 max-w-full px-4 gap-2 ms-4">
           <a href="/" class="w-full flex items-center justify-center text-center py-5 gap-2">
              <img src="/logo3.png" class="w-10 h-10" alt="Logo" />
-             <h2 class="font-bold text-2xl font-sans text-primary dark:text-gray-2">Variance</h2>
+             <h2 class="font-bold text-2xl font-sans text-primary dark:text-gray-2">OJTConnect</h2>
           </a>
         </div>
 

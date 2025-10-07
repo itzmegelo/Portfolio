@@ -8,7 +8,7 @@
                         class="relative mx-auto max-w-[525px] overflow-hidden rounded-lg bg-white py-16 px-10 text-center sm:px-12 md:px-[60px] dark:bg-dark-2">
                         <div class="mb-10 text-center md:mb-16">
                             <a href="javascript:void(0)" class="mx-auto inline-block max-w-[160px]">
-                                <h2 class="font-bold text-3xl font-sans text-primary">Variance</h2>
+                                <h2 class="font-bold text-3xl font-sans text-primary">OJTConnect</h2>
                             </a>
                         </div>
                         <form>
