@@ -36,20 +36,20 @@
                 <div class="grid md:grid-cols-2 gap-12 items-center bg-slate-800 p-8 rounded-xl shadow-2xl">
                     <div>
                         <p class="text-slate-300 leading-relaxed mb-4">
-                            I am a passionate software engineer with five years of experience building dynamic and
-                            robust web applications. My journey started with a fascination for front-end aesthetics,
-                            which quickly grew into a deep commitment to full-stack architecture, focusing on
-                            performance and clean code.
+                            I’m a junior software programmer passionate about building responsive and efficient web
+                            applications. My journey began with an interest in crafting clean and user-friendly
+                            interfaces, which evolved into a solid understanding of full-stack development.
                         </p>
                         <p class="text-slate-300 leading-relaxed mb-4">
-                            Currently, I specialize in the **MERN stack**, leveraging React for interactive user
-                            interfaces and Node.js/Express for scalable backend APIs. I am also proficient in cloud
-                            deployment, particularly with AWS, ensuring that my applications are highly available and
-                            resilient.
+                            I have hands-on experience using Vite and Vue.js for modern front-end development, as well
+                            as Vanilla PHP and CodeIgniter 3 for backend logic and API integration. On the database
+                            side, I’m proficient with Supabase, MongoDB, MySQL, and SQLite, enabling me to design and
+                            manage scalable, reliable data systems.
                         </p>
                         <p class="text-slate-300 leading-relaxed">
-                            I thrive in collaborative environments and I'm always eager to learn new technologies to
-                            solve complex problems effectively. Let's build something amazing together!
+                            I’m constantly learning new tools and frameworks to sharpen my skills and deliver better
+                            solutions. I enjoy collaborating with others to bring ideas to life — and I’m excited to
+                            keep growing as a developer and contribute to meaningful projects.
                         </p>
                     </div>
                     <div class="hidden md:block">
@@ -124,15 +124,15 @@
                     <div
                         class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
                         <div class="p-6 space-y-4">
-                            <h3 class="text-2xl font-semibold text-[#6366f1]">E-Commerce Platform (MERN)</h3>
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">Boarding House Management System</h3>
                             <p class="text-slate-300">
-                                A fully functional e-commerce site with user authentication, product management, and
-                                stripe integration for payments.
+                                A boarding house management system with tenant profiles, room & payment tracking, and
+                                maintenance requests.
                             </p>
+
                             <div class="flex flex-wrap gap-2 text-sm">
-                                <span class="px-3 py-1 bg-indigo-500/30 text-indigo-300 rounded-full">React</span>
-                                <span class="px-3 py-1 bg-green-500/30 text-green-300 rounded-full">Node/Express</span>
-                                <span class="px-3 py-1 bg-slate-500/30 text-slate-300 rounded-full">MongoDB</span>
+                                <span class="px-3 py-1 bg-indigo-500/30 text-indigo-300 rounded-full">Vanilla Php</span>
+                                <span class="px-3 py-1 bg-green-500/30 text-green-300 rounded-full">Bootstrap</span>
                             </div>
                             <div class="flex justify-between pt-4">
                                 <a href="#" target="_blank"
@@ -140,7 +140,7 @@
                                     <i data-lucide="link" class="w-5 h-5"></i>
                                     <span>Live Demo</span>
                                 </a>
-                                <a href="#" target="_blank"
+                                <a href="https://github.com/itzmegelo/BoardingHouseManagemetSystem" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
                                     <i data-lucide="github" class="w-5 h-5"></i>
                                     <span>Code</span>
@@ -153,15 +153,16 @@
                     <div
                         class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
                         <div class="p-6 space-y-4">
-                            <h3 class="text-2xl font-semibold text-[#6366f1]">Real-Time Chat App (Vue + WS)</h3>
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">Digital Library Management System</h3>
                             <p class="text-slate-300">
-                                A blazing fast chat application leveraging Vue.js and WebSockets for instantaneous
-                                messaging and presence updates.
+                                A comprehensive platform for managing digital books, users, and borrowing records —
+                                streamlining library operations efficiently.
                             </p>
+
                             <div class="flex flex-wrap gap-2 text-sm">
-                                <span class="px-3 py-1 bg-emerald-500/30 text-emerald-300 rounded-full">Vue.js</span>
-                                <span class="px-3 py-1 bg-cyan-500/30 text-cyan-300 rounded-full">WebSockets</span>
-                                <span class="px-3 py-1 bg-yellow-500/30 text-yellow-300 rounded-full">Firebase</span>
+                                <span class="px-3 py-1 bg-emerald-500/30 text-emerald-300 rounded-full">Vanilla
+                                    Php</span>
+                                <span class="px-3 py-1 bg-cyan-500/30 text-cyan-300 rounded-full">Bootstrap</span>
                             </div>
                             <div class="flex justify-between pt-4">
                                 <a href="#" target="_blank"
@@ -169,7 +170,7 @@
                                     <i data-lucide="link" class="w-5 h-5"></i>
                                     <span>Live Demo</span>
                                 </a>
-                                <a href="#" target="_blank"
+                                <a href="https://github.com/itzmegelo/DigitalLibraryManagementSystem" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
                                     <i data-lucide="github" class="w-5 h-5"></i>
                                     <span>Code</span>
@@ -182,15 +183,15 @@
                     <div
                         class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
                         <div class="p-6 space-y-4">
-                            <h3 class="text-2xl font-semibold text-[#6366f1]">Data Analytics Dashboard (Python)</h3>
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">Visitor Management System</h3>
                             <p class="text-slate-300">
-                                A dashboard built with Flask and D3.js to visualize large datasets related to market
-                                trends and user behavior.
+                                A web-based system for registering, tracking, and managing visitors — ensuring secure
+                                and efficient access control.
                             </p>
+
                             <div class="flex flex-wrap gap-2 text-sm">
-                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full">Python</span>
-                                <span class="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-full">Flask</span>
-                                <span class="px-3 py-1 bg-red-500/30 text-red-300 rounded-full">D3.js</span>
+                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full">Vanilla Php</span>
+                                <span class="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-full">Bootstrap</span>
                             </div>
                             <div class="flex justify-between pt-4">
                                 <a href="#" target="_blank"
@@ -198,7 +199,7 @@
                                     <i data-lucide="link" class="w-5 h-5"></i>
                                     <span>Live Demo</span>
                                 </a>
-                                <a href="#" target="_blank"
+                                <a href="https://github.com/itzmegelo/VisitorManagementSystem" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
                                     <i data-lucide="github" class="w-5 h-5"></i>
                                     <span>Code</span>
@@ -245,7 +246,8 @@
                                     </div>
                                     <a href="javascript:void(0)" class="text-sm ml-4">
                                         <small class="block text-white">Mail</small>
-                                        <spane class="font-semibold text-orange-600">maldora.pojas.angelo@gmail.com</spane>
+                                        <spane class="font-semibold text-orange-600">maldora.pojas.angelo@gmail.com
+                                        </spane>
                                     </a>
                                 </li>
                             </ul>
@@ -292,21 +294,21 @@
                     </div>
 
                     <form class="space-y-6 bg-card-dark p-8 rounded-xl shadow-2xl border border-slate-700">
-                       <div>
-                        <label for="name" class="block text-sm font-medium text-slate-300 mb-1">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" 
-                               class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
-                    </div>
-                    <div>
-                        <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email</label>
-                        <input type="email" id="email" name="email" placeholder="you@example.com" 
-                               class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
-                    </div>
-                    <div>
-                        <label for="message" class="block text-sm font-medium text-slate-300 mb-1">Message</label>
-                        <textarea id="message" name="message" rows="4" placeholder="How can I help you?"
-                                  class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150"></textarea>
-                    </div>
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-slate-300 mb-1">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name"
+                                class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com"
+                                class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-slate-300 mb-1">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="How can I help you?"
+                                class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150"></textarea>
+                        </div>
                         <button type='button'
                             class="text-white bg-orange-500 hover:bg-orange-400 tracking-wide rounded-md text-sm font-medium px-4 py-3 w-full cursor-pointer !mt-2 border-0">Send
                             message</button>
