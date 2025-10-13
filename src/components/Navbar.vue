@@ -10,9 +10,9 @@ const toggleNavbar = () => {
 const navLinkItems = ref([
   { text: 'Home', href: '/' },
   { text: 'About', href: '#about' },
-  { text: 'Experience', href: '#about' },
   { text: 'Skills', href: '#skills' },
-  { text: 'Projects', href: '#projects' }
+  { text: 'Projects', href: '#projects' },
+  { text: 'Contact', href: '#contact' },
 ])
 
 // Close menu when clicking outside
@@ -57,7 +57,10 @@ onUnmounted(() => {
             </button>
 
             <!-- Nav Links -->
-            <nav
+          </div>
+         
+        </div>
+         <nav
               :class="{ hidden: !open }"
               class="absolute right-4 top-full w-full max-w-[250px] rounded-lg px-6 py-5 shadow dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:shadow-none lg:dark:bg-transparent"
             >
@@ -72,8 +75,6 @@ onUnmounted(() => {
                 </li>
               </ul>
             </nav>
-          </div>
-        </div>
       </div>
     </div>
   </header>
