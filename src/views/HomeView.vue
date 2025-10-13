@@ -138,7 +138,7 @@
                                 <a href="#" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
                                     <i data-lucide="link" class="w-5 h-5"></i>
-                                    <span>Live Demo</span>
+                                    <span>Screenshots</span>
                                 </a>
                                 <a href="https://github.com/itzmegelo/BoardingHouseManagemetSystem" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
@@ -168,7 +168,7 @@
                                 <a href="#" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
                                     <i data-lucide="link" class="w-5 h-5"></i>
-                                    <span>Live Demo</span>
+                                    <span>Screenshots</span>
                                 </a>
                                 <a href="https://github.com/itzmegelo/DigitalLibraryManagementSystem" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
@@ -197,7 +197,7 @@
                                 <a href="#" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
                                     <i data-lucide="link" class="w-5 h-5"></i>
-                                    <span>Live Demo</span>
+                                    <span>Screenshots</span>
                                 </a>
                                 <a href="https://github.com/itzmegelo/VisitorManagementSystem" target="_blank"
                                     class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
