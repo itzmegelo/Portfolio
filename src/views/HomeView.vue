@@ -1,0 +1,376 @@
+<template>
+    <Navbar class="sticky top-0 z-50 bg-bg-dark/95 backdrop-blur-sm shadow-lg" />
+    <main class="max-w-7xl mx-auto">
+        <section id="hero"
+            class="py-16 md:py-32 px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[calc(100vh-6rem)] ">
+            <div class="text-center space-y-6 animate-fade-in" style="animation-delay: 0.1s;">
+                <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-[#6366f1] shadow-2xl">
+                    <!-- Placeholder Image -->
+                    <img src="https://placehold.co/160x160/334155/f8fafc?text=AM" alt="Profile Picture"
+                        class="w-full h-full object-cover">
+                </div>
+                <h1 class="text-5xl sm:text-7xl font-extrabold leading-tight text-white">
+                    Hi, I'm <span class="text-[#6366f1]">Angelo Maldora</span>
+                </h1>
+                <p class="text-2xl sm:text-3xl text-slate-300 font-light max-w-4xl mx-auto">
+                    A Full Stack Developer crafting efficient and scalable solutions with a focus on modern web
+                    technologies.
+                </p>
+                <div class="pt-8 space-x-4">
+                    <a href="#projects"
+                        class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-lg shadow-lg text-bg-dark bg-[#6366f1] hover:bg-indigo-400 transition duration-300 transform hover:scale-105">
+                        View Projects
+                    </a>
+                    <a href="#contact"
+                        class="inline-flex items-center px-8 py-3 border-2 border-[#6366f1] text-base font-medium rounded-lg text-[#6366f1] hover:bg-[#6366f1] hover:text-white transition duration-300 transform hover:scale-105">
+                        Get In Touch
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <h2
+                    class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
+                    About Me</h2>
+                <div class="grid md:grid-cols-2 gap-12 items-center bg-slate-800 p-8 rounded-xl shadow-2xl">
+                    <div>
+                        <p class="text-slate-300 leading-relaxed mb-4">
+                            I am a passionate software engineer with five years of experience building dynamic and
+                            robust web applications. My journey started with a fascination for front-end aesthetics,
+                            which quickly grew into a deep commitment to full-stack architecture, focusing on
+                            performance and clean code.
+                        </p>
+                        <p class="text-slate-300 leading-relaxed mb-4">
+                            Currently, I specialize in the **MERN stack**, leveraging React for interactive user
+                            interfaces and Node.js/Express for scalable backend APIs. I am also proficient in cloud
+                            deployment, particularly with AWS, ensuring that my applications are highly available and
+                            resilient.
+                        </p>
+                        <p class="text-slate-300 leading-relaxed">
+                            I thrive in collaborative environments and I'm always eager to learn new technologies to
+                            solve complex problems effectively. Let's build something amazing together!
+                        </p>
+                    </div>
+                    <div class="hidden md:block">
+                        <i data-lucide="code"
+                            class="w-24 h-24 text-primary mx-auto animate-[spin_10s_linear_infinite]"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <h2
+                    class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
+                    Skills & Stack</h2>
+
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+
+                    <!-- Skill Card Template -->
+                    <div
+                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3">
+                        <Monitor class="h-10 w-10 text-orange-500 mx-auto" />
+                        <p class="text-lg font-semibold text-white">Frontend</p>
+                        <ul class="text-sm text-slate-400 space-y-1">
+                            <li>React, Vue.js</li>
+                            <li>TypeScript, JavaScript</li>
+                            <li>Tailwind CSS, HTML5</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3">
+                        <Server class="h-10 w-10 text-orange-500 mx-auto" />
+                        <p class="text-lg font-semibold text-white">Backend</p>
+                        <ul class="text-sm text-slate-400 space-y-1">
+                            <li>Php, Java</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3">
+                        <Database class="h-10 w-10 text-orange-500 mx-auto" />
+                        <p class="text-lg font-semibold text-white">Databases</p>
+                        <ul class="text-sm text-slate-400 space-y-1">
+                            <li>PostgreSQL, MySQL</li>
+                            <li>NoSql, SQLite</li>
+                            <li>MongoDB, Firebase</li>
+                            <li>Supabase</li>
+                        </ul>
+                    </div>
+
+                    <div
+                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3 col-span-2 sm:col-span-1">
+                        <Wrench class="h-10 w-10 text-orange-500 mx-auto" />
+                        <p class="text-lg font-semibold text-white">Tools & Version</p>
+                        <ul class="text-sm text-slate-400 space-y-1">
+                            <li>Git, GitHub, GitLab</li>
+                            <li>Figma, Webpack</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <h2
+                    class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
+                    Featured Projects</h2>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+                    <!-- Project Card 1 -->
+                    <div
+                        class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">E-Commerce Platform (MERN)</h3>
+                            <p class="text-slate-300">
+                                A fully functional e-commerce site with user authentication, product management, and
+                                stripe integration for payments.
+                            </p>
+                            <div class="flex flex-wrap gap-2 text-sm">
+                                <span class="px-3 py-1 bg-indigo-500/30 text-indigo-300 rounded-full">React</span>
+                                <span class="px-3 py-1 bg-green-500/30 text-green-300 rounded-full">Node/Express</span>
+                                <span class="px-3 py-1 bg-slate-500/30 text-slate-300 rounded-full">MongoDB</span>
+                            </div>
+                            <div class="flex justify-between pt-4">
+                                <a href="#" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="link" class="w-5 h-5"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="github" class="w-5 h-5"></i>
+                                    <span>Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div
+                        class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">Real-Time Chat App (Vue + WS)</h3>
+                            <p class="text-slate-300">
+                                A blazing fast chat application leveraging Vue.js and WebSockets for instantaneous
+                                messaging and presence updates.
+                            </p>
+                            <div class="flex flex-wrap gap-2 text-sm">
+                                <span class="px-3 py-1 bg-emerald-500/30 text-emerald-300 rounded-full">Vue.js</span>
+                                <span class="px-3 py-1 bg-cyan-500/30 text-cyan-300 rounded-full">WebSockets</span>
+                                <span class="px-3 py-1 bg-yellow-500/30 text-yellow-300 rounded-full">Firebase</span>
+                            </div>
+                            <div class="flex justify-between pt-4">
+                                <a href="#" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="link" class="w-5 h-5"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="github" class="w-5 h-5"></i>
+                                    <span>Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div
+                        class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">Data Analytics Dashboard (Python)</h3>
+                            <p class="text-slate-300">
+                                A dashboard built with Flask and D3.js to visualize large datasets related to market
+                                trends and user behavior.
+                            </p>
+                            <div class="flex flex-wrap gap-2 text-sm">
+                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full">Python</span>
+                                <span class="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-full">Flask</span>
+                                <span class="px-3 py-1 bg-red-500/30 text-red-300 rounded-full">D3.js</span>
+                            </div>
+                            <div class="flex justify-between pt-4">
+                                <a href="#" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="link" class="w-5 h-5"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="#" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="github" class="w-5 h-5"></i>
+                                    <span>Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- View More Button -->
+                <div class="text-center mt-12">
+                    <a href="#"
+                        class="inline-flex items-center px-6 py-3 border-2 border-primary text-base font-medium rounded-lg text-primary hover:bg-primary hover:text-bg-dark transition duration-300">
+                        See All 9 Projects
+                        <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-6xl mx-auto">
+                <h2
+                    class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
+                    Get In Touch</h2>
+
+                <div class="grid lg:grid-cols-2 items-start gap-16 p-6 mx-auto max-w-5xl max-lg:max-w-2xl">
+                    <div>
+                        <h2 class="text-white text-3xl font-bold">Let's Talk</h2>
+                        <p class="text-[15px] text-slate-300 mt-4 leading-relaxed">Have some big idea or brand to
+                            develop and need help? Then reach out we'd love to hear about your project and provide help.
+                        </p>
+                        <div class="mt-12">
+                            <h2 class="text-white text-base font-semibold">Email</h2>
+                            <ul class="mt-4">
+                                <li class="flex items-center">
+                                    <div
+                                        class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#000'
+                                            viewBox="0 0 479.058 479.058">
+                                            <path
+                                                d="M434.146 59.882H44.912C20.146 59.882 0 80.028 0 104.794v269.47c0 24.766 20.146 44.912 44.912 44.912h389.234c24.766 0 44.912-20.146 44.912-44.912v-269.47c0-24.766-20.146-44.912-44.912-44.912zm0 29.941c2.034 0 3.969.422 5.738 1.159L239.529 264.631 39.173 90.982a14.902 14.902 0 0 1 5.738-1.159zm0 299.411H44.912c-8.26 0-14.971-6.71-14.971-14.971V122.615l199.778 173.141c2.822 2.441 6.316 3.655 9.81 3.655s6.988-1.213 9.81-3.655l199.778-173.141v251.649c-.001 8.26-6.711 14.97-14.971 14.97z"
+                                                data-original="#000000" />
+                                        </svg>
+                                    </div>
+                                    <a href="javascript:void(0)" class="text-sm ml-4">
+                                        <small class="block text-white">Mail</small>
+                                        <spane class="font-semibold text-orange-600">maldora.pojas.angelo@gmail.com</spane>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="mt-12">
+                            <h2 class="text-slate-900 text-base font-semibold">Socials</h2>
+                            <ul class="flex mt-4 space-x-4">
+                                <li
+                                    class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                    <a href="javascript:void(0)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#000'
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M6.812 13.937H9.33v9.312c0 .414.335.75.75.75l4.007.001a.75.75 0 0 0 .75-.75v-9.312h2.387a.75.75 0 0 0 .744-.657l.498-4a.75.75 0 0 0-.744-.843h-2.885c.113-2.471-.435-3.202 1.172-3.202 1.088-.13 2.804.421 2.804-.75V.909a.75.75 0 0 0-.648-.743A26.926 26.926 0 0 0 15.071 0c-7.01 0-5.567 7.772-5.74 8.437H6.812a.75.75 0 0 0-.75.75v4c0 .414.336.75.75.75zm.75-3.999h2.518a.75.75 0 0 0 .75-.75V6.037c0-2.883 1.545-4.536 4.24-4.536.878 0 1.686.043 2.242.087v2.149c-.402.205-3.976-.884-3.976 2.697v2.755c0 .414.336.75.75.75h2.786l-.312 2.5h-2.474a.75.75 0 0 0-.75.75V22.5h-2.505v-9.312a.75.75 0 0 0-.75-.75H7.562z"
+                                                data-original="#000000" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li
+                                    class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                    <a href="javascript:void(0)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#000'
+                                            viewBox="0 0 511 512">
+                                            <path
+                                                d="M111.898 160.664H15.5c-8.285 0-15 6.719-15 15V497c0 8.285 6.715 15 15 15h96.398c8.286 0 15-6.715 15-15V175.664c0-8.281-6.714-15-15-15zM96.898 482H30.5V190.664h66.398zM63.703 0C28.852 0 .5 28.352.5 63.195c0 34.852 28.352 63.2 63.203 63.2 34.848 0 63.195-28.352 63.195-63.2C126.898 28.352 98.551 0 63.703 0zm0 96.395c-18.308 0-33.203-14.891-33.203-33.2C30.5 44.891 45.395 30 63.703 30c18.305 0 33.195 14.89 33.195 33.195 0 18.309-14.89 33.2-33.195 33.2zm289.207 62.148c-22.8 0-45.273 5.496-65.398 15.777-.684-7.652-7.11-13.656-14.942-13.656h-96.406c-8.281 0-15 6.719-15 15V497c0 8.285 6.719 15 15 15h96.406c8.285 0 15-6.715 15-15V320.266c0-22.735 18.5-41.23 41.235-41.23 22.734 0 41.226 18.495 41.226 41.23V497c0 8.285 6.719 15 15 15h96.403c8.285 0 15-6.715 15-15V302.066c0-79.14-64.383-143.523-143.524-143.523zM466.434 482h-66.399V320.266c0-39.278-31.953-71.23-71.226-71.23-39.282 0-71.239 31.952-71.239 71.23V482h-66.402V190.664h66.402v11.082c0 5.77 3.309 11.027 8.512 13.524a15.01 15.01 0 0 0 15.875-1.82c20.313-16.294 44.852-24.907 70.953-24.907 62.598 0 113.524 50.926 113.524 113.523zm0 0"
+                                                data-original="#000000" />
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li
+                                    class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                                    <a href="javascript:void(0)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill='#000'
+                                            viewBox="0 0 24 24">
+                                            <path
+                                                d="M12 9.3a2.7 2.7 0 1 0 0 5.4 2.7 2.7 0 0 0 0-5.4Zm0-1.8a4.5 4.5 0 1 1 0 9 4.5 4.5 0 0 1 0-9Zm5.85-.225a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0ZM12 4.8c-2.227 0-2.59.006-3.626.052-.706.034-1.18.128-1.618.299a2.59 2.59 0 0 0-.972.633 2.601 2.601 0 0 0-.634.972c-.17.44-.265.913-.298 1.618C4.805 9.367 4.8 9.714 4.8 12c0 2.227.006 2.59.052 3.626.034.705.128 1.18.298 1.617.153.392.333.674.632.972.303.303.585.484.972.633.445.172.918.267 1.62.3.993.047 1.34.052 3.626.052 2.227 0 2.59-.006 3.626-.052.704-.034 1.178-.128 1.617-.298.39-.152.674-.333.972-.632.304-.303.485-.585.634-.972.171-.444.266-.918.299-1.62.047-.993.052-1.34.052-3.626 0-2.227-.006-2.59-.052-3.626-.034-.704-.128-1.18-.299-1.618a2.619 2.619 0 0 0-.633-.972 2.595 2.595 0 0 0-.972-.634c-.44-.17-.914-.265-1.618-.298-.993-.047-1.34-.052-3.626-.052ZM12 3c2.445 0 2.75.009 3.71.054.958.045 1.61.195 2.185.419A4.388 4.388 0 0 1 19.49 4.51c.457.45.812.994 1.038 1.595.222.573.373 1.227.418 2.185.042.96.054 1.265.054 3.71 0 2.445-.009 2.75-.054 3.71-.045.958-.196 1.61-.419 2.185a4.395 4.395 0 0 1-1.037 1.595 4.44 4.44 0 0 1-1.595 1.038c-.573.222-1.227.373-2.185.418-.96.042-1.265.054-3.71.054-2.445 0-2.75-.009-3.71-.054-.958-.045-1.61-.196-2.185-.419A4.402 4.402 0 0 1 4.51 19.49a4.414 4.414 0 0 1-1.037-1.595c-.224-.573-.374-1.227-.419-2.185C3.012 14.75 3 14.445 3 12c0-2.445.009-2.75.054-3.71s.195-1.61.419-2.185A4.392 4.392 0 0 1 4.51 4.51c.45-.458.994-.812 1.595-1.037.574-.224 1.226-.374 2.185-.419C9.25 3.012 9.555 3 12 3Z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <form class="space-y-6 bg-card-dark p-8 rounded-xl shadow-2xl border border-slate-700">
+                       <div>
+                        <label for="name" class="block text-sm font-medium text-slate-300 mb-1">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" 
+                               class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" 
+                               class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-slate-300 mb-1">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="How can I help you?"
+                                  class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150"></textarea>
+                    </div>
+                        <button type='button'
+                            class="text-white bg-orange-500 hover:bg-orange-400 tracking-wide rounded-md text-sm font-medium px-4 py-3 w-full cursor-pointer !mt-2 border-0">Send
+                            message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</template>
+<script setup lang="ts">
+import Navbar from "../components/Navbar.vue"
+import { Monitor, Server, Database, Cloud, Wrench } from 'lucide-vue-next'
+</script>
+<style>
+/* Apply custom font if available, fallback to sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    background-color: #0f172a;
+    /* Custom dark background */
+    color: #f1f5f9;
+    /* Slate-100 for text */
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Utility for professional-looking hover effects */
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar styling for a better aesthetic in dark mode */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #6366f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4f46e5;
+}
+
+/* Simple animation for the hero section text */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-out forwards;
+}
+</style>
