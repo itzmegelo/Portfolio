@@ -218,7 +218,7 @@
                 </div>
             </div>
         </section>
-        <section id="projects" class="py-16 px-4 sm:px-6 lg:px-8">
+        <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8">
             <div class="max-w-6xl mx-auto">
                 <h2
                     class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">

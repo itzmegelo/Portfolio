@@ -1,13 +1,5 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue'
-import Modal from "./Modals.vue";
-
-const modalOpen = ref(false);
-
-const openModal = () => {
-  modalOpen.value = true;
-};
-import { Book, Power , User, Info } from 'lucide-vue-next'
 const open = ref(false)
 const dropdownButtonRef = ref<HTMLButtonElement | null>(null)
 
@@ -46,7 +38,7 @@ onUnmounted(() => {
         <!-- Logo -->
         <div class="w-60 max-w-full px-4 gap-2 ms-4">
           <a href="/" class="w-full flex items-center justify-center text-center py-5 gap-2">
-             <h2 class="font-bold text-3xl font-sans text-primary dark:text-gray-2">Portfolio</h2>
+             <h2 class="font-bold text-3xl font-sans text-[#6366f1] dark:text-gray-2">Portfolio</h2>
           </a>
         </div>
 
@@ -57,7 +49,7 @@ onUnmounted(() => {
             <button
               @click="toggleNavbar"
               ref="dropdownButtonRef"
-              class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+              class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-[#6366f1] focus:ring-2 lg:hidden"
             >
               <span class="my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
               <span class="my-[6px] block h-[2px] w-[30px] bg-body-color dark:bg-white"></span>
@@ -85,27 +77,4 @@ onUnmounted(() => {
       </div>
     </div>
   </header>
-     <Modal
-      v-model="modalOpen"
-      title="Your Message Sent Successfully"
-      message="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since."
-    >
-      <!-- Custom action buttons -->
-      <div class="w-1/2 px-3">
-        <button
-          @click="modalOpen = false"
-          class="block w-full rounded-md border border-stroke p-3 text-center text-base font-medium text-dark transition hover:border-red-600 hover:bg-red-600 hover:text-white dark:text-white"
-        >
-          Cancel
-        </button>
-      </div>
-      <div class="w-1/2 px-3">
-        <a
-          href="/"
-          class="block w-full rounded-md border border-primary bg-primary p-3 text-center text-base font-medium text-white transition hover:bg-blue-dark"
-        >
-          View Details
-        </a>
-      </div>
-    </Modal>
 </template>
