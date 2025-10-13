@@ -318,7 +318,7 @@
 </template>
 <script setup lang="ts">
 import Navbar from "../components/Navbar.vue"
-import { Monitor, Server, Database, Cloud, Wrench } from 'lucide-vue-next'
+import { Monitor, Server, Database, Wrench } from 'lucide-vue-next'
 </script>
 <style>
 /* Apply custom font if available, fallback to sans-serif */
