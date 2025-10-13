@@ -301,7 +301,7 @@
                         </div>
                         <div>
                             <label for="email" class="block text-sm font-medium text-slate-300 mb-1">Email</label>
-                            <input type="email" id="email" name="email" placeholder="you@example.com"
+                            <input type="email" id="email" name="email" placeholder="abcd@example.com"
                                 class="w-full px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 focus:border-primary focus:ring-primary text-white placeholder-slate-500 transition duration-150">
                         </div>
                         <div>
