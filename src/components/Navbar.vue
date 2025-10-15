@@ -38,7 +38,7 @@ onUnmounted(() => {
         <!-- Logo -->
         <div class="w-60 max-w-full px-4 gap-2 ms-4">
           <a href="/" class="w-full flex items-center justify-center text-center py-5 gap-2">
-             <h2 class="font-bold text-3xl font-sans text-[#6366f1] dark:text-gray-2">Portfolio</h2>
+             <h2 class="font-bold text-3xl font-sans text-orange-400 dark:text-orange-400">itzme<span class="text-[#6366f1]">gelo</span></h2>
           </a>
         </div>
 
@@ -68,7 +68,7 @@ onUnmounted(() => {
                 <li v-for="(item, index) in navLinkItems" :key="index">
                   <a
                     :href="item.href"
-                    class="flex py-2 text-base font-medium text-white hover:text-orange-500 dark:text-dark-6 dark:hover:text-white lg:ml-12 lg:inline-flex"
+                    class="flex py-2 text-base font-medium text-[#6366f1] hover:text-orange-500 dark:text-white dark:hover:text-[#6366f1] lg:ml-12 lg:inline-flex"
                   >
                     {{ item.text }}
                   </a>

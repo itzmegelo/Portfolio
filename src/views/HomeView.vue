@@ -2,12 +2,11 @@
     <Navbar class="sticky top-0 z-50 bg-bg-dark/95 backdrop-blur-sm shadow-lg" />
     <main class="max-w-7xl mx-auto">
         <section id="hero"
-            class="py-16 md:py-32 px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[calc(100vh-6rem)] ">
+            class="py-16 md:py-20 px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[calc(100vh-6rem)] ">
             <div class="text-center space-y-6 animate-fade-in" style="animation-delay: 0.1s;">
-                <div class="w-40 h-40 mx-auto rounded-full overflow-hidden border-4 border-[#6366f1] shadow-2xl">
+                <div class="w-65 h-65 mx-auto rounded-full overflow-hidden border-4 border-[#6366f1] shadow-2xl">
                     <!-- Placeholder Image -->
-                    <img src="https://placehold.co/160x160/334155/f8fafc?text=AM" alt="Profile Picture"
-                        class="w-full h-full object-cover">
+                    <img src="../../public/prof.png" alt="Profile Picture" class="w-full h-full object-cover">
                 </div>
                 <h1 class="text-5xl sm:text-7xl font-extrabold leading-tight text-white">
                     Hi, I'm <span class="text-[#6366f1]">Angelo Maldora</span>
@@ -53,8 +52,11 @@
                         </p>
                     </div>
                     <div class="hidden md:block">
-                        <i data-lucide="code"
-                            class="w-24 h-24 text-primary mx-auto animate-[spin_10s_linear_infinite]"></i>
+                        <div
+                            class="w-65 h-65 mx-auto rounded-full overflow-hidden border-4 border-[#6366f1] shadow-2xl">
+                            <!-- Placeholder Image -->
+                            <img src="../../public/prof.png" alt="Profile Picture" class="w-full h-full object-cover">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,14 +67,16 @@
                     class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
                     Skills & Stack</h2>
 
-                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
 
                     <!-- Skill Card Template -->
                     <div
-                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3">
-                        <Monitor class="h-10 w-10 text-orange-500 mx-auto" />
-                        <p class="text-lg font-semibold text-white">Frontend</p>
-                        <ul class="text-sm text-slate-400 space-y-1">
+                        class="group bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:text-white space-y-3 
+  hover:bg-gradient-to-r hover:from-orange-500 hover:via-pink-500 hover:to-purple-500 hover:animate-[gradientMove_3s_ease_infinite] bg-[length:200%_200%]">
+                        <Monitor
+                            class="h-10 w-10 text-orange-400 mx-auto transition duration-300 group-hover:text-white" />
+                        <p class="text-lg font-semibold text-white group-hover:text-white">Frontend</p>
+                        <ul class="text-sm text-slate-300 space-y-1 group-hover:text-white">
                             <li>React, Vue.js</li>
                             <li>TypeScript, JavaScript</li>
                             <li>Tailwind CSS, HTML5</li>
@@ -80,19 +84,23 @@
                     </div>
 
                     <div
-                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3">
-                        <Server class="h-10 w-10 text-orange-500 mx-auto" />
-                        <p class="text-lg font-semibold text-white">Backend</p>
-                        <ul class="text-sm text-slate-400 space-y-1">
+                        class="group bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:text-white space-y-3 
+  hover:bg-gradient-to-r hover:from-orange-500 hover:via-pink-500 hover:to-purple-500 hover:animate-[gradientMove_3s_ease_infinite] bg-[length:200%_200%]">
+                        <Server
+                            class="h-10 w-10 text-orange-400 mx-auto transition duration-300 group-hover:text-white" />
+                        <p class="text-lg font-semibold text-white group-hover:text-white">Backend</p>
+                        <ul class="text-sm text-slate-300 space-y-1 group-hover:text-white">
                             <li>Php, Java</li>
                         </ul>
                     </div>
 
                     <div
-                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3">
-                        <Database class="h-10 w-10 text-orange-500 mx-auto" />
-                        <p class="text-lg font-semibold text-white">Databases</p>
-                        <ul class="text-sm text-slate-400 space-y-1">
+                        class="group bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:text-white space-y-3 
+  hover:bg-gradient-to-r hover:from-orange-500 hover:via-pink-500 hover:to-purple-500 hover:animate-[gradientMove_3s_ease_infinite] bg-[length:200%_200%]">
+                        <Database
+                            class="h-10 w-10 text-orange-400 mx-auto transition duration-300 group-hover:text-white" />
+                        <p class="text-lg font-semibold text-white group-hover:text-white">Databases</p>
+                        <ul class="text-sm text-slate-300 space-y-1 group-hover:text-white">
                             <li>PostgreSQL, MySQL</li>
                             <li>NoSql, SQLite</li>
                             <li>MongoDB, Firebase</li>
@@ -101,10 +109,12 @@
                     </div>
 
                     <div
-                        class="bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition duration-300 card-hover space-y-3 col-span-2 sm:col-span-1">
-                        <Wrench class="h-10 w-10 text-orange-500 mx-auto" />
-                        <p class="text-lg font-semibold text-white">Tools & Version</p>
-                        <ul class="text-sm text-slate-400 space-y-1">
+                        class="group bg-slate-800 p-6 rounded-xl shadow-lg text-center transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:text-white space-y-3 
+  hover:bg-gradient-to-r hover:from-orange-500 hover:via-pink-500 hover:to-purple-500 hover:animate-[gradientMove_3s_ease_infinite] bg-[length:200%_200%]">
+                        <Wrench
+                            class="h-10 w-10 text-orange-400 mx-auto transition duration-300 group-hover:text-white" />
+                        <p class="text-lg font-semibold text-white group-hover:text-white">Tools & Version</p>
+                        <ul class="text-sm text-slate-300 space-y-1 group-hover:text-white">
                             <li>Git, GitHub, GitLab</li>
                             <li>Figma, Webpack</li>
                         </ul>
@@ -322,57 +332,3 @@
 import Navbar from "../components/Navbar.vue"
 import { Monitor, Server, Database, Wrench } from 'lucide-vue-next'
 </script>
-<style>
-/* Apply custom font if available, fallback to sans-serif */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-body {
-    background-color: #0f172a;
-    /* Custom dark background */
-    color: #f1f5f9;
-    /* Slate-100 for text */
-    font-family: 'Inter', sans-serif;
-    scroll-behavior: smooth;
-}
-
-/* Utility for professional-looking hover effects */
-.card-hover:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
-}
-
-/* Custom scrollbar styling for a better aesthetic in dark mode */
-::-webkit-scrollbar {
-    width: 8px;
-}
-
-::-webkit-scrollbar-track {
-    background: #1e293b;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #6366f1;
-    border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #4f46e5;
-}
-
-/* Simple animation for the hero section text */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.animate-fade-in {
-    animation: fadeIn 1s ease-out forwards;
-}
-</style>
