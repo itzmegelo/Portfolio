@@ -218,14 +218,33 @@
                         </div>
                     </div>
 
-                </div>
-                <!-- View More Button -->
-                <div class="text-center mt-12">
-                    <a href="#"
-                        class="inline-flex items-center px-6 py-3 border-2 border-primary text-base font-medium rounded-lg text-primary hover:bg-primary hover:text-bg-dark transition duration-300">
-                        See All 9 Projects
-                        <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
-                    </a>
+                     <div
+                        class="bg-slate-800 rounded-xl shadow-lg overflow-hidden transform transition duration-300 card-hover">
+                        <div class="p-6 space-y-4">
+                            <h3 class="text-2xl font-semibold text-[#6366f1]">Waifu</h3>
+                            <p class="text-slate-300">
+                                Generate endless anime waifus with a single click — cute, cool, or mysterious, there’s one for everyone!
+                            </p>
+
+                            <div class="flex flex-wrap gap-2 text-sm">
+                                <span class="px-3 py-1 bg-blue-500/30 text-blue-300 rounded-full">Vite + Vue</span>
+                                <span class="px-3 py-1 bg-purple-500/30 text-purple-300 rounded-full">Tailwind</span>
+                            </div>
+                            <div class="flex justify-between pt-4">
+                                <a href="https://waifurandomanime.vercel.app/" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="link" class="w-5 h-5"></i>
+                                    <span>Live Demo</span>
+                                </a>
+                                <a href="https://github.com/itzmegelo/Waifu" target="_blank"
+                                    class="flex items-center space-x-2 text-white hover:text-secondary transition duration-300">
+                                    <i data-lucide="github" class="w-5 h-5"></i>
+                                    <span>Code</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
