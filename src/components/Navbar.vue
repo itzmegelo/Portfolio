@@ -11,6 +11,7 @@ const navLinkItems = ref([
   { text: 'Home', href: '/' },
   { text: 'About', href: '#about' },
   { text: 'Skills', href: '#skills' },
+  { text: 'Experience', href: '#experience' },
   { text: 'Projects', href: '#projects' },
   { text: 'Contact', href: '#contact' },
 ])
