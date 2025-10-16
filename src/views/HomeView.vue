@@ -406,7 +406,7 @@
     </main>
     <footer class="bg-primary-bg border-t border-secondary-bg py-6">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-gray-400 text-sm">
-            &copy; 2025 Angelo Maldpra | Designed with Tailwind CSS & Vite + Vue.JS.
+            &copy; 2025 Angelo Maldora | Designed with Tailwind CSS & Vite + Vue.JS.
         </div>
     </footer>
 </template>
