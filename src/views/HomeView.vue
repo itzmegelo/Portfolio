@@ -1,8 +1,8 @@
 <template>
     <Navbar class="sticky top-0 z-50 bg-bg-dark/95 backdrop-blur-sm shadow-lg" />
-    <main class="max-w-7xl mx-auto">
+    <main class="flex flex-col w-full justify-center items-center">
         <section id="hero"
-            class="py-16 md:py-2 px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[calc(100vh-6rem)]">
+            class="py-20 md:py-2 px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[calc(100vh-6rem)]">
             <div class="text-center space-y-6 animate-fade-in" style="animation-delay: 0.1s">
                 <div class="w-65 h-65 mx-auto rounded-full overflow-hidden border-4 border-[#6366f1] shadow-2xl">
                     <!-- Placeholder Image -->
@@ -27,13 +27,13 @@
                 </div>
             </div>
         </section>
-        <section id="about" class="py-16 px-4 sm:px-6 lg:px-8 scroll-mt-24">
+        <section id="about" class="py-16 px-4 sm:px-6 lg:px-8 scroll-mt-24 w-full bg-slate-800">
             <div class="max-w-6xl mx-auto">
                 <h2
                     class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
                     About Me
                 </h2>
-                <div class="grid md:grid-cols-2 gap-12 items-center bg-slate-800 p-8 rounded-xl shadow-2xl">
+                <div class="grid md:grid-cols-2 gap-12 items-center p-8">
                     <div>
                         <p class="text-slate-300 leading-relaxed mb-4">
                             I’m a junior software programmer passionate about building
@@ -303,7 +303,7 @@
                 </div>
             </div>
         </section>
-        <section id="contact" class="py-16 px-4 sm:px-6 lg:px-8 scroll-mt-24">
+        <section id="contact" class="flex flex-col w-full py-16 px-4 sm:px-6 lg:px-8 scroll-mt-24 bg-slate-800">
             <div class="max-w-6xl mx-auto">
                 <h2
                     class="text-4xl font-bold text-center mb-12 text-orange-500 border-b-2 border-[#6366f1] pb-2 inline-block mx-auto">
@@ -340,7 +340,7 @@
                         </div>
 
                         <div class="mt-12">
-                            <h2 class="text-slate-900 text-base font-semibold">Socials</h2>
+                            <h2 class="text-white text-base font-semibold">Socials</h2>
                             <ul class="flex mt-4 space-x-4">
                                 <li
                                     class="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
