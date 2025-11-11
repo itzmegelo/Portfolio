@@ -22,7 +22,7 @@
                     </a>
                     <a href="#contact"
                         class="inline-flex items-center px-8 py-3 border-2 border-[#6366f1] text-base font-medium rounded-lg text-[#6366f1] hover:bg-[#6366f1] hover:text-white transition duration-300 transform hover:scale-105">
-                        Get In Touch
+                        Download CV
                     </a>
                 </div>
             </div>
